@@ -13,6 +13,17 @@ I'm an avgeek, transportation geek... End of holiday season, where to people vac
 Make csv more usable: remove unused cols, strings to numbers, make small for web
 Join datasets, ie find and compile keyed columns(airport codes, airline codes, etc...)
 
+```
+open with Numbers(Excel), remove columns, export as CSV
+open VIM:
+  rename headers, formatting
+  :%s/^2014//g # remove 2014 before month number
+  :%s/^M//g # remove 'weird' line breaks
+Sublime: "([0-9]+),([0-9]+)" -> $1$2 # for quoted, commas in numbers
+Validate lines: ^[^\,]+,[^\,]+,[^\,]+,[^\,]+,[^\,]+$
+
+```
+
 ### Designing and Sketching
 Show notebook sketches, think about objectives...
 

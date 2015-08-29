@@ -30,6 +30,8 @@ Airport codes...
 ### Designing and Sketching
 Show notebook sketches, think about objectives...
 
+![notebook](https://raw.githubusercontent.com/cmpolis/lets-explore-dataset-1/master/sketch-1.jpg)
+
 ### Implementation
 JAVASCRIPT GOES HERE... d3? Ractive? Browserify?
 

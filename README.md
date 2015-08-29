@@ -22,6 +22,9 @@ open VIM:
 Sublime: "([0-9]+),([0-9]+)" -> $1$2 # for quoted, commas in numbers
 Validate lines: ^[^\,]+,[^\,]+,[^\,]+,[^\,]+,[^\,]+$
 
+Airport codes...
+^(...)\t"(.+),(.+)"\t[0-9]+$ -> $1,"$2","$3"
+
 ```
 
 ### Designing and Sketching
